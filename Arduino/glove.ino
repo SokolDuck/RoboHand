@@ -11,7 +11,7 @@ void setup()
   // set digital pin to control as an output
   pinMode(13, OUTPUT);
   // set the data rate for the SoftwareSerial port
-  BT.begin(9600);
+  BT.begin(38400);
   // Send test message to other device
   BT.println("Hello from Arduino");
   send = String();
